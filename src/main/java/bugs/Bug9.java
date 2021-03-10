@@ -23,7 +23,7 @@ public class Bug9 {
         int sum = 0;
 
         for (int i = 0; i < numberAsString.length(); i++) {
-            sum += Character.getNumericValue(numberAsString.charAt(i));
+            sum += Character.getNumericValue(numberAsString.charAt(i)); //получаем цифровое значение из чара
         }
 
         System.out.println("Sum = " + sum);
